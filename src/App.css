@@ -1,0 +1,16 @@
+body {
+    @apply text-black ;
+    background-color: #001fd0; /* white */
+    background-image: linear-gradient(to bottom, #1f5699, #73727e);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .dark body {
+    @apply text-white;
+  background-color: #0f172a; /* tailwind's bg-slate-950 */
+  background-image: radial-gradient(circle 500px at 50% 200px, #3e3e3e, transparent);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
