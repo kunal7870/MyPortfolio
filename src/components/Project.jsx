@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
+import project4 from '../assets/project4.png';
 import '../App.css'; 
 
 const Projects = () => {
@@ -12,12 +13,12 @@ const Projects = () => {
       title: 'React-iTask',
       image: project2,
       description: 'Simple to-do app using React and Tailwind with local storage support.',
-      demo: '#https://react-itask.netlify.app/',
+      demo: 'https://react-itask.netlify.app/',
       code: 'https://github.com/kunal7870/todo-react-app',
     },
     {
       title: 'Chat App',
-      image: project1,
+      image: project3,
       description: 'A real-time chat app using React, Node.js, and Socket.io.',
       demo: 'https://chat-app-frontend-5toi.onrender.com',
       code: 'https://github.com/kunal7870/Chat-App',
@@ -25,9 +26,18 @@ const Projects = () => {
     
     {
       title: 'Portfolio Website',
-      image: project3,
+      image: project4,
       description: 'A personal portfolio site built with React and smooth scroll.',
-      code: '',
+      demo: 'https://kunalverma-portfolio.netlify.app/',
+      code: 'https://github.com/kunal7870/MyPortfolio',
+    },
+    {
+      title: 'Spotify-clone',
+      image: project1,
+      description: 'A Basic ui clone of spotify built with html css and js { responsiveness added } ',
+      demo: 'https://kkspotify-music-clone.netlify.app/',
+      code: 'https://github.com/kunal7870/spotify-clone',
+      
     },
   ];
 

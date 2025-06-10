@@ -37,11 +37,12 @@ const About = () => {
         <div className="w-full md:w-2/3 bg-slate-800 p-8 rounded-2xl shadow-md text-white">
           <h2 className="text-4xl font-bold mb-6">About Me</h2>
           <p className="leading-relaxed text-gray-100">
-            I'm currently a 3rd-year B.Tech IT student at B.P. Poddar Institute of Management and Technology, Kolkata.
-            I am passionate about web development and always excited to learn new technologies and frameworks.
+          I'm a third-year B.Tech student in Information Technology at B.P. Poddar Institute of Management and Technology, Kolkata. My primary interest lies in Software Engineering and web development, and I’m always eager to explore new technologies, tools, and frameworks that enhance both the user experience and developer workflow.
+
+
             <br /><br />
-            Apart from academics, I enjoy working on personal projects and collaborating with others on real-world problems.
-            I believe in writing clean, maintainable code and continuously improving my skill set.
+            Apart from academics, I actively work on personal projects and enjoy collaborating on real-world challenges that push me to think critically and build practical solutions. I take pride in writing clean, maintainable code and believe in continuous learning to grow both technically and creatively.
+
           </p>
         </div>
       </div>

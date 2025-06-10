@@ -16,7 +16,7 @@ const Home = () => {
           </h1>
           <div className="role text-white font-mono text-2xl md:text-3xl leading-relaxed">
             <Typewriter
-              words={['A FrontEnd Developer', 'A React Developer', 'A Tech Enthusiast']}
+              words={['A Web Developer', 'A React Developer', 'A Tech Enthusiast']}
               loop={true}
               cursor
               cursorStyle="|"
@@ -35,7 +35,7 @@ const Home = () => {
         <a href="https://github.com/kunal7870" target="_blank" rel="noopener noreferrer">
           <FaGithub className="hover:text-gray-400 transition-colors duration-300" />
         </a>
-        <a href="kunal33grd@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://leetcode.com/u/kunalkumar2003/" target="_blank" rel="noopener noreferrer">
           <FaCode className="hover:text-orange-400 transition-colors duration-300" />
         </a>
       </div>
