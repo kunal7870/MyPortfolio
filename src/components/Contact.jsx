@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 const Contact = () => {
 	const [form, setForm] = useState({ name: '', email: '', message: '' });
 
@@ -77,7 +76,6 @@ const Contact = () => {
 							<p><strong>Email:</strong> kunal33grd@gmail.com</p>
 							<p><strong>Phone:</strong> +91-9142384280</p>
 							<p><strong>Location:</strong> Kolkata, India</p>
-							<p><strong>WhatsApp:</strong> <Link to='https://wa.me/+919142384280' > wa.me/+919142384280 </Link>  </p>
 						</div>
 					</div>
 				</div>
