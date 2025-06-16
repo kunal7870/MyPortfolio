@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 const Contact = () => {
 	const [form, setForm] = useState({ name: '', email: '', message: '' });
 
@@ -70,13 +70,14 @@ const Contact = () => {
 						<div>
 							<h3 className="text-2xl font-bold mb-2 text-white">Get in Touch</h3>
 							<p className="text-gray-300">
-								Feel free to reach out for collaborations or just a friendly hello! 😊
+								Feel free to reach out for collaborations or just a friendly hello!
 							</p>
 						</div>
 						<div className="text-gray-300">
-							<p><strong>Email:</strong> kunal.verma@example.com</p>
-							<p><strong>Phone:</strong> +91-9876543210</p>
+							<p><strong>Email:</strong> kunal33grd@gmail.com</p>
+							<p><strong>Phone:</strong> +91-9142384280</p>
 							<p><strong>Location:</strong> Kolkata, India</p>
+							<p><strong>WhatsApp:</strong> <Link to='https://wa.me/+919142384280' > wa.me/+919142384280 </Link>  </p>
 						</div>
 					</div>
 				</div>
