@@ -17,6 +17,20 @@ const Projects = () => {
       code: 'https://github.com/kunal7870/todo-react-app',
     },
     {
+      title: 'Tic-Tac-Toe',
+      image: project5,
+      description: 'Simple playable tic-tac-toe game',
+      demo: 'https://tic-tac-toek.netlify.app/',
+      code: 'https://github.com/kunal7870/Tic-Tac-Toe',
+    },
+    {
+      title: 'E-Commerce Frontend',
+      image: project6,
+      description: 'E-commerce Frontend design using html,css and javascript only',
+      demo: 'https://e-commerce-appkk.netlify.app/',
+      code: 'https://github.com/kunal7870/E-Commerce',
+    },
+    {
       title: 'Chat App',
       image: project3,
       description: 'A real-time chat app using React, Node.js, and Socket.io.',
