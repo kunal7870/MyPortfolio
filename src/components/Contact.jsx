@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
 	const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -7,13 +8,25 @@ const Contact = () => {
 		setForm({ ...form, [e.target.name]: e.target.value });
 	};
 
-	const handleSubmit = (e) => {
-		e.preventDefault();
-		// Add email handling logic here (e.g., emailjs or backend API)
-		alert('Message sent!');
-		setForm({ name: '', email: '', message: '' });
-	};
+const handleSubmit = (e) => {
+	e.preventDefault();
 
+	emailjs.send(
+		'service_qdkbo2w',
+		'template_r4lqzxo',
+		form,
+		'6_nv5d5c5p46R5VQ_'
+	).then(
+		(response) => {
+			alert('Message sent!');
+			setForm({ name: '', email: '', message: '' });
+		},
+		(error) => {
+			alert('Failed to send message. Please try again.');
+			console.error(error);
+		}
+	);
+};
 	return (
 		<section id="Contact" className=" text-white px-6 md:px-20 ">
 			<div className="max-w-7xl mx-auto">
@@ -70,13 +83,13 @@ const Contact = () => {
 						<div>
 							<h3 className="text-2xl font-bold mb-2 text-white">Get in Touch</h3>
 							<p className="text-gray-300">
-								Feel free to reach out for collaborations or just a friendly hello! 😊
+								Feel free to reach out for collaborations or just a friendly hello!
 							</p>
 						</div>
 						<div className="text-gray-300">
-							<p><strong>Email:</strong> kunal.verma@example.com</p>
-							<p><strong>Phone:</strong> +91-9876543210</p>
-							<p><strong>Location:</strong> Kolkata, India</p>
+							<p><strong>Email:</strong> kunal33grd@gmail.com</p>
+							<p><strong>Phone:</strong> +91-9142384280</p>
+							<p><strong>Location:</strong> kaikhali-700052, Kolkata, India</p>
 						</div>
 					</div>
 				</div>
