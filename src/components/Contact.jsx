@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
 	const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -9,9 +10,26 @@ const Contact = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		// Add email handling logic here (e.g., emailjs or backend API)
-		alert('Message sent!');
-		setForm({ name: '', email: '', message: '' });
+		// email handling logic (emailjs )
+		// alert('Message sent!');
+		// setForm({ name: '', email: '', message: '' });
+
+		emailjs.send(
+			'service_qdkbo2w',
+			'template_r4lqzxo',
+
+			form,
+			'6_nv5d5c5p46R5VQ_'
+		).then(
+			(res)=> {
+				alert('Message Sent !');
+				setForm({name: '', email: '',message: ''});
+			},
+			(err) => {
+				alert('Failed to send mail. please try again');
+				console.log(err);
+			}
+		)
 	};
 
 	return (
@@ -74,9 +92,9 @@ const Contact = () => {
 							</p>
 						</div>
 						<div className="text-gray-300">
-							<p><strong>Email:</strong> kunal.verma@example.com</p>
-							<p><strong>Phone:</strong> +91-9876543210</p>
-							<p><strong>Location:</strong> Kolkata, India</p>
+							<p><strong>Email:</strong> kunal33grd@gmail.com</p>
+							<p><strong>Phone:</strong> +91-9142384280</p>
+							<p><strong>Location:</strong> Kolkata, India ,700052</p>
 						</div>
 					</div>
 				</div>
