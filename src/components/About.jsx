@@ -37,7 +37,7 @@ const About = () => {
         <div className="w-full md:w-2/3 bg-slate-800 p-8 rounded-2xl shadow-md text-white">
           <h2 className="text-4xl font-bold mb-6">About Me</h2>
           <p className="leading-relaxed text-gray-100">
-          I'm a third-year B.Tech student in Information Technology at B.P. Poddar Institute of Management and Technology, Kolkata. My primary interest lies in Software Engineering and web development, and I’m always eager to explore new technologies, tools, and frameworks that enhance both the user experience and developer workflow.
+          I'm a Final-year B.Tech student in Information Technology at B.P. Poddar Institute of Management and Technology, Kolkata. My primary interest lies in Software Engineering and web development, and I’m always eager to explore new technologies, tools, and frameworks that enhance both the user experience and developer workflow.
 
 
             <br /><br />
