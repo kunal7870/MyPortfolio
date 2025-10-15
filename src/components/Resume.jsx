@@ -20,17 +20,17 @@ const Resume = () => {
 					<div className="p-6 rounded-2xl backdrop-blur-md bg-white/10 border-b border-white/20 shadow-md">
 						<h3 className="text-xl font-semibold text-black dark:text-gray-200 mb-2">Skills</h3>
 						<ul className="list-disc list-inside  text-gray-900 dark:text-gray-400 grid grid-cols-1 gap-1">
-							<li>HTML, CSS, JavaScript</li>
+							<li> HTML, CSS, JavaScript</li>
 							<li>Node.js, React.js, Express.js</li>
-							<li>C, Java</li>
-							<li>Git, GitHub</li>
+							<li>C, Java, MySql, MongoDB</li>
+							<li>Git, GitHub, VS Code</li>
 						</ul>
 					</div>
 
 					{/* Experience */}
 					<div className="p-6 rounded-2xl backdrop-blur-md bg-white/10 border-b border-white/20 shadow-md">
 						<h3 className="text-xl font-semibold text-black dark:text-gray-200 mb-2">Experience</h3>
-						<p className="text-gray-900 dark:text-gray-400">Worked on personal project/web apps including a real-time chat application using React, Express, and Socket.io.</p>
+						<p className="text-gray-900 dark:text-gray-400">Worked on several projects including a real-time chat application using React, Express, and Socket.io.</p>
 						<p className="text-gray-700 dark:text-gray-500">Deployed on Render.</p>
 					</div>
 
@@ -39,8 +39,9 @@ const Resume = () => {
 						<h3 className="text-xl font-semibold text-black dark:text-gray-200 mb-2">Certifications</h3>
 						<ul className="list-disc list-inside text-gray-900 dark:text-gray-400">
 							<li>Java fundamentals by scalar</li>
-							<li>Git & GitHub Mastery</li>
-							<li>Python fundamentals by Scalar</li>
+							<li>Java foundation By infosys springBoard</li>
+							<li>React.js certification course by GFG</li>
+							<li>DBMS by infosys springboard</li>
 						</ul>
 					</div>
 				</div>
